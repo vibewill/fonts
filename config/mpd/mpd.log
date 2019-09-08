@@ -1,0 +1,68 @@
+Sep 06 23:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 06 23:13 : update: added /Rammstein - Rosenrot (Official Video)-af59U2BRRAU.mp3
+Sep 06 23:13 : update: added /Paramore - The Only Exception [OFFICIAL VIDEO]--J7J_IWUhls.mp3
+Sep 06 23:13 : update: added /Come Join the Murder - The White Buffalo & The Forest Rangers(lyrics) SOA final soundtrack--pDjhVfeJss.mp3
+Sep 06 23:13 : update: added /The House of the Rising Sun-VixdIglCZXk.mp3
+Sep 06 23:13 : update: added /Oh Darling, what have I done (Lyrics) [Sons of Anarchy]-xh4ZODkbsaQ.mp3
+Sep 06 23:13 : update: added /Rammstein - Sonne (Official Video)-StZcUAPRRac.mp3
+Sep 06 23:13 : update: added /Battleme - Hey Hey, My My (Sons of Anarchy S03E13)-PbeIv39s04s.mp3
+Sep 06 23:13 : update: added /Within Temptation - Faster (Videoclip)-iQVei5C2N4E.mp3
+Sep 06 23:13 : update: added /Doc Holliday - Dead Man's Road (Lyrics)-Jr-TZDhv0aQ.webm
+Sep 06 23:13 : update: added /Metallica - Turn The Page ( Sons Of Anarchy )-Rq29iZicma0.mp3
+Sep 06 23:13 : update: added /Ed Sheeran - Make It Rain (From Sons Of Anarchy)--0QAlkLQGt8.mp3
+Sep 06 23:13 : update: added /Metallica - Fade to Black-WEQnzs8wl6E.mp3
+Sep 06 23:13 : update: added /Doc Holliday - Dead Man's Road (Lyrics)-Jr-TZDhv0aQ.mp3
+Sep 06 23:13 : update: added /The House of The Rising Sun - The White Buffalo-yM4bYyC1HU0.mp3
+Sep 06 23:13 : update: added /Led Zeppelin -  Stairway to Heaven Live-xbhCPt6PZIU.mp3
+Sep 06 23:13 : update: added /Lewis Capaldi - Someone You Loved (Official Video)-zABLecsR5UE.mp3
+Sep 06 23:13 : update: added /02 Vicious Traditions-wpX5mffn4EA.mp3
+Sep 06 23:13 : update: added /THE VEILS - LAVINIA-kPsd2XaBKzc.mp3
+Sep 06 23:13 : update: added /Blackberry Smoke - One Horse Town (Official Acoustic Video)-T80B7s7ekGo.mp3
+Sep 06 23:13 : update: added /CADAVERIA - Flowers in Fire (OFFICIAL VIDEO)-NaIb-UBcjmo.mp3
+Sep 06 23:13 : avahi: Service 'Music Player @ debian' successfully established.
+Sep 06 23:13 : client: [0] opened from 127.0.0.1:56574
+Sep 06 23:13 : exception: Stored playlists are disabled
+Sep 06 23:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 06 23:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 06 23:21 : player: played "Metallica - Fade to Black-WEQnzs8wl6E.mp3"
+Sep 06 23:26 : player: played "CADAVERIA - Flowers in Fire (OFFICIAL VIDEO)-NaIb-UBcjmo.mp3"
+Sep 06 23:34 : player: played "Paramore - The Only Exception [OFFICIAL VIDEO]--J7J_IWUhls.mp3"
+Sep 06 23:40 : player: played "Rammstein - Sonne (Official Video)-StZcUAPRRac.mp3"
+Sep 06 23:45 : player: played "Rammstein - Rosenrot (Official Video)-af59U2BRRAU.mp3"
+Sep 06 23:47 : client: [0] closed
+Sep 06 23:48 : client: [1] opened from 127.0.0.1:56794
+Sep 06 23:53 : player: played "CADAVERIA - Flowers in Fire (OFFICIAL VIDEO)-NaIb-UBcjmo.mp3"
+Sep 06 23:57 : player: played "Paramore - The Only Exception [OFFICIAL VIDEO]--J7J_IWUhls.mp3"
+Sep 07 00:01 : player: played "Rammstein - Sonne (Official Video)-StZcUAPRRac.mp3"
+Sep 07 00:05 : player: played "Rammstein - Rosenrot (Official Video)-af59U2BRRAU.mp3"
+Sep 07 00:11 : player: played "The House of The Rising Sun - The White Buffalo-yM4bYyC1HU0.mp3"
+Sep 07 00:15 : player: played "The House of the Rising Sun-VixdIglCZXk.mp3"
+Sep 07 00:19 : player: played "THE VEILS - LAVINIA-kPsd2XaBKzc.mp3"
+Sep 07 00:24 : player: played "02 Vicious Traditions-wpX5mffn4EA.mp3"
+Sep 07 00:27 : player: played "Battleme - Hey Hey, My My (Sons of Anarchy S03E13)-PbeIv39s04s.mp3"
+Sep 07 00:31 : player: played "Blackberry Smoke - One Horse Town (Official Acoustic Video)-T80B7s7ekGo.mp3"
+Sep 07 00:34 : player: played "Led Zeppelin -  Stairway to Heaven Live-xbhCPt6PZIU.mp3"
+Sep 07 00:34 : client: [1] closed
+Sep 07 01:08 : zeroconf: No global port, disabling zeroconf
+Sep 07 01:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 02:20 : zeroconf: No global port, disabling zeroconf
+Sep 07 02:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 02:45 : zeroconf: No global port, disabling zeroconf
+Sep 07 02:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 03:43 : zeroconf: No global port, disabling zeroconf
+Sep 07 03:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 09:56 : zeroconf: No global port, disabling zeroconf
+Sep 07 09:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 21:40 : zeroconf: No global port, disabling zeroconf
+Sep 07 21:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 22:01 : zeroconf: No global port, disabling zeroconf
+Sep 07 22:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 22:10 : zeroconf: No global port, disabling zeroconf
+Sep 07 22:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 22:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 22:10 : avahi: Service 'Music Player @ debian' successfully established.
+Sep 07 22:10 : client: [0] opened from 127.0.0.1:36956
+Sep 07 22:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 22:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 22:11 : client: [0] closed
+Sep 07 22:16 : player: played "CADAVERIA - Flowers in Fire (OFFICIAL VIDEO)-NaIb-UBcjmo.mp3"
