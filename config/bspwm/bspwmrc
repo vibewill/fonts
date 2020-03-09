@@ -26,3 +26,4 @@ xsetroot -cursor_name left_ptr &
 
 polybar example & 
 nitrogen --restore &
+compton &
