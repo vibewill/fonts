@@ -30,7 +30,7 @@ alert = #bd2c40
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 30
+height = 23
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0
@@ -88,7 +88,7 @@ label = %title:0:30:...%
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-prefix ="  "
+format-prefix =" ⌨ "
 ;format-prefix-foreground = ${colors.foreground-alt}
 format-prefix-underline = ${colors.secondary}
 
@@ -211,7 +211,7 @@ interval = 2
 format-prefix = ""
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #f90000
-label =" 📺%percentage:2%%"
+label =" 💻%percentage:2%%"
 
 
 [module/memory]
@@ -220,7 +220,7 @@ interval = 2
 format-prefix =""
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #4bffdc
-label =" 💽%percentage_used%%"
+label =" 💽 %percentage_used%%"
 
 [module/wlan]
 type = internal/network
@@ -274,13 +274,13 @@ format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
-label =" 📆%date% %time%"
+label =" 🕐%date% %time%"
 
 [module/pulseaudio]
 type = internal/pulseaudio
 
 format-volume = <label-volume> <bar-volume>
-label-volume = VOL %percentage%%
+label-volume = 🔊 %percentage%%
 label-volume-foreground = ${root.foreground}
 
 label-muted = 🔇 muted
