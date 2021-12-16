@@ -1,5 +1,17 @@
 ;==========================================================
 ;
+; THIS IS AN EXAMPLE CONFIGURATION FILE!
+; IT IS NOT SUPPOSED TO WORK OUT OF THE BOX SINCE IS CONTAINS
+; SETTINGS THAT ARE SPECIFIC TO THE MACHINE WHICH WAS USED
+; TO GENERATE IT.
+; Please refer to the web documentation hosted at:
+; https://github.com/polybar/polybar#configuration
+; and
+; https://github.com/polybar/polybar/wiki/Configuration
+; if you want to automatically generate one for you.
+;
+;==========================================================
+;
 ;
 ;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
 ;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
@@ -18,11 +30,11 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #000
+background = #000000
 background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
-foreground-alt = #555
+foreground-alt = #ffffff
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
@@ -30,11 +42,11 @@ alert = #bd2c40
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 23
+height = 25
 ;offset-x = 1%
 ;offset-y = 1%
-radius = 0
-fixed-center = false
+radius = 6.0
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -43,24 +55,22 @@ line-size = 0
 line-color = #f00
 
 border-size = 0
-border-color = #00000000
+border-color = #000000
 
 padding-left = 0
-padding-right = 0
+padding-right = 2
 
-module-margin-left = 0
-module-margin-right = 0
+module-margin-left = 1
+module-margin-right = 2
 
-font-0 = RobotoMonoNerdFontMono:style=regular:pixelsize=10;1
-font-1 = DejaVuSans:style=condensed:pixelsize=10;1
-font-2 = PowerlineSymbols:style=medium:pixelsize=20;2
-font-3 = FuraMonoNerdFontMono:style=bold:pixelsize=20;2
-font-4 = NotoEmojiNerdFontMono:style=book:pixelsize=11;1
-font-5 = FontAwesome5Free:style=book:pixelsize=13;1
+font-0 = fixed:pixelsize=10;1
+font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-2 = siji:pixelsize=10;1
+font-3 = "FontAwesome:size=10;1"
 
 modules-left = bspwm i3
 modules-center = xwindow
-modules-right =  xbacklight pulseaudio xkeyboard memory cpu wlan eth  temperature date powermenu
+modules-right = filesystem xbacklight alsa xkeyboard  memory cpu temperature date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -88,8 +98,8 @@ label = %title:0:30:...%
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-prefix =" ⌨ "
-;format-prefix-foreground = ${colors.foreground-alt}
+format-prefix = "  "
+format-prefix-foreground = ${colors.foreground-alt}
 format-prefix-underline = ${colors.secondary}
 
 label-layout = %layout%
@@ -208,23 +218,22 @@ card = intel_backlight
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = ""
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #f90000
-label =" 💻%percentage:2%%"
-
+label =  %percentage:2%%
 
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix =""
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #4bffdc
-label =" 💽 %percentage_used%%"
+label =  %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = net1
+interface = wlp59s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -246,7 +255,7 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = enp0s18
+interface = enp0s31f6
 interval = 3.0
 
 format-connected-underline = #55aa55
@@ -274,13 +283,13 @@ format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
-label =" 🕐%date% %time%"
+label =  %date% %time%
 
 [module/pulseaudio]
 type = internal/pulseaudio
 
 format-volume = <label-volume> <bar-volume>
-label-volume = 🔊 %percentage%%
+label-volume = VOL %percentage%%
 label-volume-foreground = ${root.foreground}
 
 label-muted = 🔇 muted
@@ -307,7 +316,7 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 type = internal/alsa
 
 format-volume = <label-volume> <bar-volume>
-label-volume = VOL
+label-volume = 
 label-volume-foreground = ${root.foreground}
 
 format-muted-prefix = " "
@@ -334,7 +343,7 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 [module/battery]
 type = internal/battery
 battery = BAT0
-adapter = ADP1
+adapter = AC
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
